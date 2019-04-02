@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+
+        <h2>HTML Forms</h2>
+
+        <form action="/validateUser">
+            First name:<br>
+            <input type="text" name="firstname" id="firstname" value="">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname" id="lastname" value="">
+            <br>
+            Password:<br>
+            <input type="password" name="password" id="password" value="">
+            <br>
+            <input type="button" value="Submit" onclick="validateUser()">
+        </form> 
+
+    </body>
+</html>
